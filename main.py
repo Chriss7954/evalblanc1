@@ -1,6 +1,7 @@
 from bottle import route, run
 from test import hello
 
+
 @route('/')
 def page():
     return hello()
